@@ -1,6 +1,10 @@
 import React from "react";
+import { useFetch } from "./useFetch";
+import { formatCurrency } from "./Dashboard";
 
 export default function Products() {
+  const { data: allProducts } = useFetch("/products");  
+
   return (
     <main className="bg-[#F5F7F8] min-h-[100vh] py-[40px]">
       <div className="max-w-[1280px] mx-auto">
@@ -14,36 +18,38 @@ export default function Products() {
 
         {/* Container for products */}
         <div className="flex flex-wrap gap-[30px] mt-[40px]">
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
+          {allProducts &&
+            allProducts.map((product) => {
+              return (
+                <ProductCard
+                  productName={product.title}
+                  price={product.selling_price}
+                />
+              );
+            })}
         </div>
       </div>
     </main>
   );
 }
 
-function ProductCard() {
+function ProductCard({ productName, price }) {
   return (
     <div className="border border-neutral-300 rounded-[12px] w-full max-w-[250px]">
-      <img className="h-[190px]" src="" alt="" />
+      {/* <img className="h-[190px]" src="" alt="" /> */}
+      <div className="h-[190px]"></div>
 
       {/* Container for title and price */}
       <div className="flex flex-col gap-[4px] p-[15px]">
-        <h3 className="font-semibold text-[18px] tracking-tight">Headphones</h3>
+        <h3 className="font-semibold text-[18px] tracking-tight">
+          {productName}
+        </h3>
 
         {/* Price */}
-        <p className="text-gray">$15.00</p>
+        <p className="text-gray">{formatCurrency(price)}</p>
 
         {/* Buy btn */}
-        <button className="font-semibold tracking-tight text-white bg-[#0D7FF2] w-full h-[40px] rounded-[10px]">
+        <button className="font-semibold tracking-tight text-white bg-blue1 w-full h-[40px] rounded-[10px]">
           Buy
         </button>
       </div>

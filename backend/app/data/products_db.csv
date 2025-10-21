@@ -1,21 +1,21 @@
 id,title,category,cost_price,selling_price,units_sold,units_in_stock,lead_time,holding_cost
-,wireless_mouse,electronics,3500,5000,120,30,5,1000
-,hair_cream,beauty,1800,2800,150,40,10,650
-,Tshirt,clothing,2000,3200,200,50,7,400
-,denim_jeans,clothing,8000,10000,120,300,5,200
-,headphones,electronics,15000,22000,50,200,7,500
-,water_bottle,kitchenware,4000,6500,80,150,10,450
-,smart_watch,electronics,30000,24000,55,30,8,1800
-,nivea_lotion,beauty,1700,2300,540,160,5,700
-,ceramic_pot,kitchenware,7000,10000,210,30,9,700
-,lamp,home_decor,10000,13000,170,80,4,900
-,bluetooth_speaker,electronics,25000,35000,180,40,7,3000
-,wireless_earbuds,electronics,18000,27000,200,50,6,2200
-,wall_clock,home_decor,6000,9000,120,25,5,700
-,Mirror,home_decor,9000,13000,125,28,6,1000
-,frying_pan,kitchenware,8000,11000,160,30,5,900
-,cutlery_set,kitcheware,5000,8000,190,45,4,600
-,sneakers,clothing,15000,22000,150,35,6,1800
-,handbag,clothing,18000,25000,80,15,7,2000
-,hair_dryer,beauty,12000,17000,110,25,5,1200
-,face_serum,beauty,5500,8500,150,40,4,700
+1,Wireless Mouse,electronics,3500,5000,120,50,5,1000
+2,Hair Cream,beauty,1800,2800,150,40,10,650
+3,T-Shirt,clothing,2000,3200,200,50,7,400
+4,Denim Jeans,clothing,8000,10000,120,300,5,200
+5,Headphones,electronics,15000,22000,50,100,7,500
+6,Water Bottle,kitchenware,4000,6500,80,150,10,450
+7,Smart Watch,electronics,30000,24000,55,30,8,1800
+8,Nivea Lotion,beauty,1700,2300,540,200,5,700
+9,Ceramic Pot,kitchenware,7000,10000,210,100,9,700
+10,Lamp,home decor,10000,13000,170,80,4,900
+11,Bluetooth Speaker,electronics,25000,35000,180,40,7,3000
+12,Wireless Earbuds,electronics,18000,27000,200,50,6,2200
+13,Wall Clock,home decor,6000,9000,120,25,5,700
+14,Mirror,home decor,9000,13000,125,28,6,1000
+15,Frying Pan,kitchenware,8000,11000,160,30,5,900
+16,Cutlery Set,kitcheware,5000,8000,190,45,4,600
+17,Sneakers,clothing,15000,22000,150,35,6,1800
+18,Handbag,clothing,18000,25000,80,30,7,2000
+19,Hair Dryer,beauty,12000,17000,110,40,5,1200
+20,Face Serum,beauty,5500,8500,150,40,4,700
