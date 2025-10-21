@@ -57,7 +57,7 @@ export function formatCurrency(amount) {
 }
 
 function NumericCard({ title, stat }) {
-  const currency_title = ["Total Revenue", "Total Cost", "Avg. Holding Cost"];
+  const currency_title = ["Total Revenue", "Total Cost", "Avg. Holding Cost", "Total Stock Value"];
   const isMoney = currency_title.includes(title);
   const isMargin = title === "Avg. Profit Margin";
   const isLead = title === "Avg. Lead Time";

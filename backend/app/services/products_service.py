@@ -39,10 +39,14 @@ number_reorder = df['need_reorder'].value_counts()['yes']
 # Calculate profit margin for each product
 df['profit_margin'] = round(((df['revenue'] - df['total_cost']) / df['revenue']) * 100, 2)
 
+# Calculate stock value of each product
+df["Stock Value"] = (df["cost_price"] + df["holding_cost"]) * df["units_in_stock"]
 
-#  Calculate total revenue, total cost
+
+#  Calculate total revenue, total cost, total stock value, averages, and other metrics
 total_revenue = df['revenue'].sum()
 total_cost = df['total_cost'].sum()
+total_stock_value = df["Stock Value"].sum()
 avg_lead = df['lead_time'].mean()
 avg_profit = df['profit_margin'].mean()
 avg_holding = df['holding_cost'].mean()
@@ -69,7 +73,8 @@ def get_all_metrics():
         "Avg. Lead Time": int(avg_lead),
         "Avg. Profit Margin": int(avg_profit),
         "Products to Reorder": int(number_reorder),
-        "Avg. Holding Cost": int(avg_holding)
+        "Avg. Holding Cost": int(avg_holding),
+        "Total Stock Value": int(total_stock_value)
     }
     return data
 
