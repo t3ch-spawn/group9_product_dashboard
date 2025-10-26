@@ -1,4 +1,4 @@
-from fastapi import APIRouter
+from fastapi import APIRouter,Request   
 from services import products_service
 
 router = APIRouter(prefix="/products")
@@ -14,3 +14,8 @@ def get_all_metrics():
 @router.get("/{title}")
 def get_product(title):
     return  products_service.get_product(title)
+
+
+@router.post("/update")
+async def update_data(request: Request):
+    return await products_service.update_data(request)

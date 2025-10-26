@@ -1,21 +1,21 @@
-id,title,category,cost_price,selling_price,units_sold,units_in_stock,lead_time,holding_cost
-1,Wireless Mouse,electronics,3500,5000,120,50,5,1000
-2,Hair Cream,beauty,1800,2800,150,40,10,650
-3,T-Shirt,clothing,2000,3200,200,50,7,400
-4,Denim Jeans,clothing,8000,10000,120,300,5,200
-5,Headphones,electronics,15000,22000,50,100,7,500
-6,Water Bottle,kitchenware,4000,6500,80,150,10,450
-7,Smart Watch,electronics,30000,24000,55,30,8,1800
-8,Nivea Lotion,beauty,1700,2300,540,200,5,700
-9,Ceramic Pot,kitchenware,7000,10000,210,100,9,700
-10,Lamp,home decor,10000,13000,170,80,4,900
-11,Bluetooth Speaker,electronics,25000,35000,180,40,7,3000
-12,Wireless Earbuds,electronics,18000,27000,200,50,6,2200
-13,Wall Clock,home decor,6000,9000,120,25,5,700
-14,Mirror,home decor,9000,13000,125,28,6,1000
-15,Frying Pan,kitchenware,8000,11000,160,30,5,900
-16,Cutlery Set,kitcheware,5000,8000,190,45,4,600
-17,Sneakers,clothing,15000,22000,150,35,6,1800
-18,Handbag,clothing,18000,25000,80,30,7,2000
-19,Hair Dryer,beauty,12000,17000,110,40,5,1200
-20,Face Serum,beauty,5500,8500,150,40,4,700
+title,category,cost_price,selling_price,units_sold,units_in_stock,lead_time,holding_cost,img_url
+Wireless Mouse,electronics,3500,5000,120,50,5,1000,"https://res.cloudinary.com/dxbonqlbo/image/upload/c_fill,h_600,w_600/f_auto/q_auto/wirless_mouse_qp3frg?_a=DATAiZAAZAA0"
+Hair Cream,beauty,1800,2800,150,40,10,650,"https://res.cloudinary.com/dxbonqlbo/image/upload/c_fill,h_600,w_600/f_auto/q_auto/hair_cream_okxfiq?_a=DATAiZAAZAA0"
+T-Shirt,clothing,2000,3200,200,50,7,400,"https://res.cloudinary.com/dxbonqlbo/image/upload/c_fill,h_600,w_600/f_auto/q_auto/t-shirt_gtlb3t?_a=DATAiZAAZAA0"
+Denim Jeans,clothing,8000,10000,120,300,5,200,"https://res.cloudinary.com/dxbonqlbo/image/upload/c_fill,h_600,w_600/f_auto/q_auto/denim_jeans_hpvyt6?_a=DATAiZAAZAA0"
+Headphones,electronics,15000,22000,50,100,7,500,"https://res.cloudinary.com/dxbonqlbo/image/upload/c_fill,h_600,w_600/f_auto/q_auto/headphones_knstpm?_a=DATAiZAAZAA0"
+Water Bottle,kitchenware,4000,6500,80,150,10,450,"https://res.cloudinary.com/dxbonqlbo/image/upload/c_fill,h_600,w_600/f_auto/q_auto/water_bottle_utz5jj?_a=DATAiZAAZAA0"
+Smart Watch,electronics,30000,24000,55,30,8,1800,"https://res.cloudinary.com/dxbonqlbo/image/upload/c_fill,h_600,w_600/f_auto/q_auto/smart_watch_kwgpuk?_a=DATAiZAAZAA0"
+Nivea Lotion,beauty,1700,2300,540,200,5,700,"https://res.cloudinary.com/dxbonqlbo/image/upload/c_fill,h_600,w_600/f_auto/q_auto/nivea_lotion_gx0jdd?_a=DATAiZAAZAA0"
+Ceramic Pot,kitchenware,7000,10000,210,100,9,700,"https://res.cloudinary.com/dxbonqlbo/image/upload/c_fill,h_600,w_600/f_auto/q_auto/ceramic_pot_v8qzac?_a=DATAiZAAZAA0"
+Lamp,home decor,10000,13000,170,80,4,900,"https://res.cloudinary.com/dxbonqlbo/image/upload/c_fill,h_600,w_600/f_auto/q_auto/lamp_hxlapz?_a=DATAiZAAZAA0"
+Bluetooth Speaker,electronics,25000,35000,180,40,7,3000,"https://res.cloudinary.com/dxbonqlbo/image/upload/c_fill,h_600,w_600/f_auto/q_auto/bluetooth_speaker_jhjjin?_a=DATAiZAAZAA0"
+Wireless Earbuds,electronics,18000,27000,200,50,6,2200,"https://res.cloudinary.com/dxbonqlbo/image/upload/c_fill,h_600,w_600/f_auto/q_auto/wireless_earbuds_spdkow?_a=DATAiZAAZAA0"
+Wall Clock,home decor,6000,9000,120,25,5,700,"https://res.cloudinary.com/dxbonqlbo/image/upload/c_fill,h_600,w_600/f_auto/q_auto/wall_clock_hees3q?_a=DATAiZAAZAA0"
+Mirror,home decor,9000,13000,125,28,6,1000,"https://res.cloudinary.com/dxbonqlbo/image/upload/c_fill,h_600,w_600/f_auto/q_auto/Mirror_yo6pmt?_a=DATAiZAAZAA0"
+Frying Pan,kitchenware,8000,11000,160,30,5,900,"https://res.cloudinary.com/dxbonqlbo/image/upload/c_fill,h_600,w_600/f_auto/q_auto/frying_pan_pv2pgx?_a=DATAiZAAZAA0"
+Cutlery Set,kitchenware,5000,8000,190,45,4,600,"https://res.cloudinary.com/dxbonqlbo/image/upload/c_fill,h_600,w_600/f_auto/q_auto/cutlery_set_nxmxsz?_a=DATAiZAAZAA0"
+Sneakers,clothing,15000,22000,150,35,6,1800,"https://res.cloudinary.com/dxbonqlbo/image/upload/c_fill,h_600,w_600/f_auto/q_auto/sneakers_qvvurm?_a=DATAiZAAZAA0"
+Handbag,clothing,18000,25000,80,30,7,2000,"https://res.cloudinary.com/dxbonqlbo/image/upload/c_fill,h_600,w_600/f_auto/q_auto/handbag_yhy5sf?_a=DATAiZAAZAA0"
+Hair Dryer,beauty,12000,17000,110,40,5,1200,"https://res.cloudinary.com/dxbonqlbo/image/upload/c_fill,h_600,w_600/f_auto/q_auto/hairdryer_d7oykc?_a=DATAiZAAZAA0"
+Face Serum,beauty,5500,8500,150,40,4,700,"https://res.cloudinary.com/dxbonqlbo/image/upload/c_fill,h_600,w_600/f_auto/q_auto/face_serum_wuxhai?_a=DATAiZAAZAA0"
